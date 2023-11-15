@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.navbar1 {
+    background: darkred;
+}
+
+.navbar1 ul{
+    overflow: auto;
+}
+
+.navbar1 li{
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+}
+
+.navbar1 li{
+    padding: 3px 3px;
+    color: white;
+    text-decoration: none;
+}
+
+.logo-container {
+    display: flex; /* Use flexbox for layout control */
+    align-items: center; /* Center items vertically */
+}
+
+.logo-container img {
+    max-width: 150px; /* Set the maximum width for logos */
+    margin: 0 20px; /* Add margin between logos and text */
+}
+  
+
+.text-container {
+    flex: 1;
+}
+
+
+.text-container h1{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+
+.text-container h5{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    
+}
+
+.text-container h6{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    
+}
+
+.navbar2{
+    height: 40px;
+    background-color: #fd7e14;
+    text-align: right;
+}
+.navbar2 ul{
+    overflow: auto;
+}
+
+.navbar2 li{
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+}
+
+.navbar2 li{
+    padding: 3px 3px;
+    color: black;
+    text-decoration: none;
+}
+
+.image-container img{
+    max-width: 440px; 
+    margin: 15 250px; 
+    align-items: center;
+
+}
+
+.image-box {
+    width: 300px;
+    height: 200px; 
+    border: 2px solid #000; 
+    padding: 10px; 
+    margin: 20px; 
+    text-align: center; 
+}
+
+.image-box img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto; 
+}
+
+.hr-lines:before{
+    content: " ";
+    display: block;
+    height: 2px;
+    width: 130px;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    background: #000;
+}
+
+.hr-lines{
+    position: relative;
+}
+
+.hr-lines{
+    position: relative;
+    max-width: 500px;
+    margin: 100px auto;
+    text-align: center;
+    color: black;
+}
+
+.hr-lines:after{
+    content: " ";
+    height: 2px;
+    width: 130px;
+    background: #000;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+}
+
+ p{
+    position: absolute;
+    bottom: -310px;
+    right: 50px;
+    color: #000;
+    font-weight: 800px;
+    font-size: large;
+    font-style: normal;
+} 
+
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+
+}
+
+
+
+
